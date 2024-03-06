@@ -1,0 +1,50 @@
+
+.bgside{
+    background-color: white;
+    box-shadow: 3px 3px 3px 3px lightgray;
+    width: 20%;
+    height: 90vh;
+    border-radius: 6px;
+
+    margin-top: 2em;
+}
+.side{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+    /* border: solid black 1px; */
+    width: 100%;
+}
+
+.side:hover{
+    cursor: pointer;
+    background-color: lightgray;
+}
+
+/* .side .textcolor:hover{
+    color: white;
+
+} */
+
+.side#active{
+    background: red;
+
+}
+
+.side .icon{
+flex: 30%;
+
+}
+
+.side .textcolor{
+    flex: 70%;
+
+}
+
+.textcolor{
+    font-size: 1rem;
+}
+
+.textcolor:hover{
+}
